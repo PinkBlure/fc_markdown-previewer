@@ -1,0 +1,30 @@
+body {
+    width: calc(100vw - 16px);
+    background-color: #CCA9DD
+  }
+  
+  #preview img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto; 
+    margin-bottom: 10px;
+  }
+  
+  .card-header {
+    background-color: #6C4675;
+    color: white;
+  }
+  
+  .border-line {
+    border: 3px solid #6C4675;
+  }
+  
+  .card-body {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    border: 3px solid #CCA9DD;
+    color: #6C4675;
+  }
