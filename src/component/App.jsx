@@ -11,9 +11,9 @@ function App(){
   }
   
   return (
-    <div className='container mt-3'>
-      <div className='row'>
-        <div className='col-lg-6'>
+    <div className='container-fluid mt-3 mb-3'>
+      <div className='row justify-content-center'>
+        <div className='col-lg-6 mt-lg-0 mt-3'>
           <Editor onContentChange={handleChange} content={content}/>
         </div>
         <div className='col-lg-6 mt-lg-0 mt-3'>

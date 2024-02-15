@@ -28,3 +28,8 @@ button {
   border: 3px solid #CCA9DD;
   color: #6C4675;
 }
+
+.container-fluid {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
